@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar-wrapper {
+    height: 100px;
+    width: 100vw;
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .logo-wrapper {
+      padding: 35px;
+      font-weight: 300;
+  
+      .bottega {
+        color: white;
+        font-size: 1.2em;
+      }
+  
+      .diner {
+        color: red;
+        font-size: 1.2em;
+        text-align: right;
+      }
+    }
+  
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 500px;
+    }
+  
+    .order-link {
+      padding: 20px;
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Quicksand', sans-serif;    
+      font-size: 1.2em;
+      transition: 0.3s;
+      font-weight: 300;
+  
+      &:hover {
+        color: red;
+      }
+    }
+  }  

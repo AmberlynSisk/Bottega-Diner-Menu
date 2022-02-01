@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Dinner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="./order.css">
+</head>
+<body>
+    <div class="nav-bar-wrapper">
+        <div class="logo-wrapper">
+          <div class="bottega"><strong>BOTTEGA</strong></div>
+          <div class="diner"><strong>DINER</strong></div>
+        </div>
+    
+        <div class="links">
+            <div class="nav-link">
+                <a href="../index.html">Home</a>
+            </div>
+            <div class="nav-link">
+                <a href="../menus/breakfast-menu.html">Breakfast Menu</a>
+            </div>
+            <div class="nav-link">
+                <a href="../menus/lunch-menu.html">Lunch Menu</a>
+            </div>
+            <div class="nav-link">
+                <a href="../menus/dinner-menu.html">Dinner Menu</a>
+            </div>
+        </div>
+        <div class="order-link">
+            <a href="./main-order.html">Order Now</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <form id="form1">
+          <h3>Dinner:</h3>
+          <h5>Please Choose an Entree:</h5>
+          <select id="entree" name="entree">
+            <option value="choose">Please Choose Your Entree</option>
+            <option value="none">---------------</option>
+            <option value="steak2">9oz Sirloin ($18.99)</option>
+            <option value="tenders2">Six Chicken Tenders ($10.99)</option>
+            <option value="club2">Club Sandwich ($8.99)</option>
+            <option value="burger2">Cheeseburger ($12.50)</option>
+          </select>
+      
+          <div class="btn-box">
+            <br><br><br>
+            <button type="button" id="next1">Next</button>
+          </div>    
+        </form>
+      
+        <form id="form2">
+          <h3>Dinner:</h3>
+          <h5>Please Choose your sides:</h5>
+      
+          <select id="side1" name="side1">
+            <option value="choose">Please Choose Your First Side</option>
+            <option value="none">---------------</option>
+            <option value="potatoes2">Mashed Potatoes ($3.99)</option>
+            <option value="veg2">Steamed Vegetables ($4.99)</option>
+            <option value="fries2">French Fries ($3.99)</option>
+            <option value="salad2">Side Salad ($5.99)</option>
+          </select>
+      
+          <select id="side2" name="side2">
+            <option value="choose">Please Choose Your First Side</option>
+            <option value="none">---------------</option>
+            <option value="potatoes2">Mashed Potatoes ($3.99)</option>
+            <option value="veg2">Steamed Vegetables ($4.99)</option>
+            <option value="fries2">French Fries ($3.99)</option>
+            <option value="salad2">Side Salad ($5.99)</option>
+          </select>
+      
+          <div class="btn-box">
+            <button type="button" id="back1">Back</button>
+            <button type="button" id="submit">Submit</button>
+          </div>
+        </form>
+      
+        <form id="form3">
+          <h3>Thank You!</h3>
+          <p id="message"></p>
+          <p id="amount-due"></p>
+          <div class="btn-box">
+            <br><br><br><br><br>
+            <button type="button" id="back2">Back</button>
+            <button type="button" id="next2">Next</button>
+          </div>
+        </form>
+      
+        <div class="step-row">
+          <div id="progress"></div>
+          <div class="step-col"><small>Step 1</small></div>
+          <div class="step-col"><small>Step 2</small></div>
+          <div class="step-col"><small>Step 3</small></div>
+        </div>
+    </div>
+    
+    <script src="./order.js"></script>
+</body>
+</html>

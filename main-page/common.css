@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar-wrapper {
+  height: 100px;
+  width: 100vw;
+  background-color: #313131;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar-wrapper .logo-wrapper {
+  padding: 35px;
+  font-weight: 300;
+}
+
+.nav-bar-wrapper .logo-wrapper .bottega {
+  color: white;
+  font-size: 1.2em;
+}
+
+.nav-bar-wrapper .logo-wrapper .diner {
+  color: red;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.nav-bar-wrapper .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+}
+
+.nav-bar-wrapper .order-link {
+  padding: 20px;
+}
+
+.nav-bar-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 300;
+}
+
+.nav-bar-wrapper a:hover {
+  color: red;
+}
+/*# sourceMappingURL=common.css.map */
